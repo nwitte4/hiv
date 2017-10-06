@@ -21,20 +21,16 @@
 }
 
 .body-text {
-text-align: center;
-line-height: 2;
-margin-left: auto;
-margin-right: auto;
-
-
-
-
+  text-align: center;
+  line-height: 2;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 img {
@@ -49,11 +45,10 @@ img {
   font-family: sans-serif;
 }
 
-.big-image > h1 {
+.big-image>h1 {
   text-align: center;
   padding-top: 180px;
 }
-
 
 .left {
   float: left;
@@ -71,9 +66,7 @@ img {
   padding: 0 10px;
 }
 
-.row {
-
-}
+.row {}
 
 .col-1 {
   padding: 40px;
@@ -82,68 +75,51 @@ img {
   background: orange;
 }
 
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 816px) {
-
- [class^='col-2'] {
+  [class^='col-2'] {
     float: none;
     margin: 0 auto;
   }
-
-
- .row {
+  .row {
     width: 100%;
     padding: 0;
   }
-
- .col-1:not(:last-child) {
+  .col-1:not(:last-child) {
     display: block;
     width: 48%;
   }
-
- .col-1:first-child {
+  .col-1:first-child {
     float: left;
   }
-
- .col-1:nth-child(2) {
+  .col-1:nth-child(2) {
     float: right;
   }
-
- .col-1:last-child {
+  .col-1:last-child {
     margin-top: 120px;
     width: 100%;
   }
-
 }
 
 @media screen and (max-width: 480px) {
-
- [class^='col-2'] {
+  [class^='col-2'] {
     width: 100%;
   }
-
- .row .col-1 {
+  .row .col-1 {
     display: block;
     margin: 1em auto;
     width: 100%;
-      }
+  }
 }
-.btn2:hover{
+
+.btn2:hover {
   padding: 10px;
   display: block;
   background: green;
-  }
-.btn2{
+}
+
+.btn2 {
   background-color: black;
-  border: 3px solid #444444 ;
+  border: 3px solid #444444;
   border-radius: 2px;
   color: white;
   font-family: verdana;
@@ -151,17 +127,18 @@ img {
   display: inline-block;
   text-decoration: none;
   transition: 0.3s background-color ease-in-out;
+}
 
- }
 .col-2 {
   height: 500px;
   width: auto;
-  float: center;
-  resize: auto;
+  /*float: center;
+  resize: auto;*/
 }
-.btn3{
+
+.btn3 {
   background: linear-gradient(to left, yellow, red, green, blue);
-  border: 3px solid #444444 ;
+  border: 3px solid #444444;
   border-radius: 2px;
   color: white;
   font-family: verdana;
@@ -169,14 +146,15 @@ img {
   display: inline-block;
   text-decoration: none;
   transition: 0.3s background-color ease-in-out;
-   }
-.btn3:hover{
+}
+
+.btn3:hover {
   padding: 450px;
   display: block;
   background: green;
-  }
+}
 
-.donation-container{
+.donation-container {
   width: 90%;
   margin: 0 auto;
   padding: 30px 0;
@@ -198,18 +176,18 @@ img {
   justify-content: center;
 }
 
-.Dbtn#donatebtn:hover{
+.Dbtn#donatebtn:hover {
   background: #3cb0fd;
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
 
-.donate-text{
+.donate-text {
   margin: 0 auto;
   padding: 15px;
   border: 2px solid red;
   display: inline-block;
-/*   background-color: #CA3737; */
+  /*   background-color: #CA3737; */
 }
 
 .form {
@@ -217,19 +195,17 @@ img {
   margin: 0 auto;
 }
 
-.donatecontainer, .donaterow{
+.donatecontainer, .donaterow {
   width: 100%;
 }
 
-.donatecontainer{
+.donatecontainer {
   padding: 0 10px;
 }
 
-.donaterow{
+.donaterow {}
 
-}
-
-.donatecol-1{
+.donatecol-1 {
   display: inline-block;
   width: 33%;
   padding: 10px;
@@ -238,7 +214,7 @@ img {
   border: 2px solid red;
 }
 
-.donatecol-3{
+.donatecol-3 {
   padding: 10px;
   display: block;
   width: 100%;
@@ -247,7 +223,7 @@ img {
   border: 2px solid red;
 }
 
-.donatecol-2-left{
+.donatecol-2-left {
   width: 66%;
   padding: 10px;
   float: left;
@@ -255,7 +231,8 @@ img {
   background-color: grey;
   border: 2px solid red;
 }
-.donatecol-2-right{
+
+.donatecol-2-right {
   width: 66%;
   padding: 10px;
   float: right;
