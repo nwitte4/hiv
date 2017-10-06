@@ -52,21 +52,29 @@
   display: inline-block;
   width: 33%;
   padding: 10px;
+  margin-bottom: 10px;
+  background-color: grey;
 }
 
 .col-3{
   padding: 10px;
   display: block;
   width: 100%;
+  margin-bottom: 10px;
+  background-color: #B0AFC1;
 }
 
 .col-2-left{
   width: 66%;
   padding: 10px;
   float: left;
+  margin-bottom: 10px;
+  background-color: grey;
 }
 .col-2-right{
   width: 66%;
   padding: 10px;
   float: right;
+  margin-bottom: 10px;
+  background-color: #B0AFC1;
 }
