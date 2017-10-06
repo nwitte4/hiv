@@ -29,8 +29,9 @@
 .donate-text{
   margin: 0 auto;
   padding: 15px;
-  border: 2px solid #444444;
+  border: 2px solid red;
   display: inline-block;
+/*   background-color: #CA3737; */
 }
 
 .form {
@@ -56,6 +57,7 @@
   padding: 10px;
   margin-bottom: 10px;
   background-color: grey;
+  border: 2px solid red;
 }
 
 .col-3{
@@ -64,6 +66,7 @@
   width: 100%;
   margin-bottom: 10px;
   background-color: #B0AFC1;
+  border: 2px solid red;
 }
 
 .col-2-left{
@@ -72,6 +75,7 @@
   float: left;
   margin-bottom: 10px;
   background-color: grey;
+  border: 2px solid red;
 }
 .col-2-right{
   width: 66%;
@@ -79,4 +83,5 @@
   float: right;
   margin-bottom: 10px;
   background-color: #B0AFC1;
+  border: 2px solid red;
 }
