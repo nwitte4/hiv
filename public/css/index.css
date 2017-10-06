@@ -28,4 +28,238 @@ margin-right: auto;
 
 
 
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: rgba(0,0,0,0.1);
+}
+
+img {
+  max-width: 100%;
+}
+
+.big-image {
+  height: 400px;
+  background-color: blue;
+  margin-top: 40px;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+.big-image > h1 {
+  text-align: center;
+  padding-top: 180px;
+}
+
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.container, .row {
+  width: 100%;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.row {
+
+}
+
+.col-1 {
+  padding: 40px;
+  display: inline-block;
+  width: 33%;
+  background: orange;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 816px) {
+
+ [class^='col-2'] {
+    float: none;
+    margin: 0 auto;
+  }
+
+
+ .row {
+    width: 100%;
+    padding: 0;
+  }
+
+ .col-1:not(:last-child) {
+    display: block;
+    width: 48%;
+  }
+
+ .col-1:first-child {
+    float: left;
+  }
+
+ .col-1:nth-child(2) {
+    float: right;
+  }
+
+ .col-1:last-child {
+    margin-top: 120px;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+ [class^='col-2'] {
+    width: 100%;
+  }
+
+ .row .col-1 {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+      }
+}
+.btn2:hover{
+  padding: 10px;
+  display: block;
+  background: green;
+  }
+.btn2{
+  background-color: black;
+  border: 3px solid #444444 ;
+  border-radius: 2px;
+  color: white;
+  font-family: verdana;
+  padding: 6px 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s background-color ease-in-out;
+
+ }
+.col-2 {
+  height: 500px;
+  width: auto;
+  float: center;
+  resize: auto;
+}
+.btn3{
+  background: linear-gradient(to left, yellow, red, green, blue);
+  border: 3px solid #444444 ;
+  border-radius: 2px;
+  color: white;
+  font-family: verdana;
+  padding: 250px 1015px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s background-color ease-in-out;
+   }
+.btn3:hover{
+  padding: 450px;
+  display: block;
+  background: green;
+  }
+
+.donation-container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.Dbtn#donatebtn {
+  background-color: black;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border: 2px solid #444444;
+  border-radius: 2px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 6px 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.Dbtn#donatebtn:hover{
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.donate-text{
+  margin: 0 auto;
+  padding: 15px;
+  border: 2px solid red;
+  display: inline-block;
+/*   background-color: #CA3737; */
+}
+
+.form {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.donatecontainer, .donaterow{
+  width: 100%;
+}
+
+.donatecontainer{
+  padding: 0 10px;
+}
+
+.donaterow{
+
+}
+
+.donatecol-1{
+  display: inline-block;
+  width: 33%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: grey;
+  border: 2px solid red;
+}
+
+.donatecol-3{
+  padding: 10px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #B0AFC1;
+  border: 2px solid red;
+}
+
+.donatecol-2-left{
+  width: 66%;
+  padding: 10px;
+  float: left;
+  margin-bottom: 10px;
+  background-color: grey;
+  border: 2px solid red;
+}
+.donatecol-2-right{
+  width: 66%;
+  padding: 10px;
+  float: right;
+  margin-bottom: 10px;
+  background-color: #B0AFC1;
+  border: 2px solid red;
 }
