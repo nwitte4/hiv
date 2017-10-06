@@ -15,6 +15,7 @@
   font-family: sans-serif;
   font-size: 15px;
   padding: 6px 20px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
 }
@@ -27,13 +28,14 @@
 
 .donate-text{
   margin: 0 auto;
-  padding: 10px;
+  padding: 15px;
   border: 2px solid #444444;
   display: inline-block;
 }
 
 .form {
-  padding: 5px;
+  padding: 15px;
+  margin: 0 auto;
 }
 
 .container, .row{
