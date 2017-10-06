@@ -49,23 +49,10 @@ img {
   background: orange;
 }
 
-.col-3 {
-  padding: 10px;
-  display: block;
-  width: 100%;
-}
 
-.col-2-left {
-  padding: 10px;
-  float: left;
-  width: 50%;
-}
 
-.col-2-right {
-  padding: 10px;
-  float: right;
-  width: 66%;
-}
+
+
 
 @media screen and (max-width: 816px) {
 
@@ -127,4 +114,27 @@ img {
   display: inline-block;
   text-decoration: none;
   transition: 0.3s background-color ease-in-out;
+
+  }
+.col-2 {
+  height: 500px;
+  width: auto;
+  float: center;
+  resize: auto;
+}
+.btn3{
+  background: linear-gradient(to left, yellow, red, green, blue);
+  border: 3px solid #444444;
+  border-radius: 2px;
+  color: white;
+  font-family: verdana;
+  padding: 150px 1015px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s background-color ease-in-out;
+   }
+.btn3:hover{
+  padding: 450px;
+  display: block;
+  background: green;
   }
