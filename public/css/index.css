@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: rgba(0,0,0,0.1);
+}
+
+img {
+  max-width: 100%;
+}
+
+.big-image {
+  height: 400px;
+  background-color: blue;
+  margin-top: 40px;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+.big-image > h1 {
+  text-align: center;
+  padding-top: 180px;
+}
+
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.container, .row {
+  width: 100%;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.row {
+
+}
+
+.col-1 {
+  padding: 10px;
+  display: inline-block;
+  width: 33%;
+}
+
+.col-3 {
+  padding: 10px;
+  display: block;
+  width: 100%;
+}
+
+.col-2-left {
+  padding: 10px;
+  float: left;
+  width: 50%;
+}
+
+.col-2-right {
+  padding: 10px;
+  float: right;
+  width: 66%;
+}
+
+@media screen and (max-width: 816px) {
+
+  [class^='col-2'] {
+    float: none;
+    margin: 0 auto;
+  }
+
+
+  .row {
+    width: 100%;
+    padding: 0;
+  }
+
+  .col-1:not(:last-child) {
+    display: block;
+    width: 48%;
+  }
+
+  .col-1:first-child {
+    float: left;
+  }
+
+  .col-1:nth-child(2) {
+    float: right;
+  }
+
+  .col-1:last-child {
+    margin-top: 12px;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  [class^='col-2'] {
+    width: 100%;
+  }
+
+  .row .col-1 {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+      }
+}
